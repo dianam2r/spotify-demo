@@ -1,0 +1,6 @@
+spotify_api_js:
+  version: 1
+  js:
+    js/script.js: {}
+  dependencies:
+    - core/jquery

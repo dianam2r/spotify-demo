@@ -1,0 +1,7 @@
+spotify_api.all.media:
+  path: '/spotify_api_latest_releases'
+  defaults:
+    _controller: '\Drupal\spotify_api\Controller\SpotifyApiController::getMediaAlbum'
+    _title: 'All Media Album'
+  requirements:
+    _access: 'TRUE'

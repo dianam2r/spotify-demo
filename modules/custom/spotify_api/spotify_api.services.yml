@@ -1,0 +1,3 @@
+services:
+  spotify_api.call:
+    class: Drupal\spotify_api\Logic\SpotifyLogic
